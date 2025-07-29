@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* Module system */
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Node.js support */
+    "allowJs": false,
+    "resolveJsonModule": true,
+
+    /* Strict mode */
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+
+    /* Path alias */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "server.ts"],
+  "exclude": ["node_modules", "dist"]
+}
